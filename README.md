@@ -9,6 +9,32 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
 
+    // Associação do nome do arquivo com o ícone
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "domain": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafta": "scripts",
+        "wappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools"
+    },
+
     // Configura tamanho e familia da fonte
     "editor.tabSize": 2,
     "editor.fontSize": 14,
