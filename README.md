@@ -1,3 +1,4 @@
+```
 { 
     // Define o tema do VSCode 
     "workbench.colorTheme": "Dracula",
@@ -90,3 +91,4 @@
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "compact",
 }
+```
