@@ -89,6 +89,8 @@
     // "latex-workshop.view.pdf.viewer": "tab", // Configuração Latex
     // "editor.wordWrap": "wordWrapColumn", // Quebra de linha
     "window.zoomLevel": 0,
-    "window.menuBarVisibility": "compact",
+    
+    // Oculta menu superior, pressionar ALT para exibir novamente
+    "window.menuBarVisibility": "toggle",
 }
 ```
