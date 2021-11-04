@@ -92,5 +92,8 @@
     
     // Oculta menu superior, pressionar ALT para exibir novamente
     "window.menuBarVisibility": "toggle",
+    
+    // Busca automaticamente novos commits
+    "git.autofetch": true,
 }
 ```
