@@ -1,7 +1,7 @@
 ```
 { 
     // Define o tema do VSCode 
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "GitHub Dark Default",
 
     // Aumenta a fonte do terminal
     "terminal.integrated.fontSize": 14,
@@ -39,7 +39,8 @@
     // Configura tamanho e familia da fonte
     "editor.tabSize": 2,
     "editor.fontSize": 14,
-    "editor.lineHeight": 22,
+    "editor.lineHeight": 21,
+    "editor.fontWeight": "500",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true, // Mostra simbolo <= >=
     
@@ -85,9 +86,6 @@
     "emmet.includeLanguages": { "javascript": "javascriptreact" },  // Auto complete do HTML para js
     
     "editor.minimap.enabled": false,
-    // "csharp.referencesCodeLens.enabled": false, // Configuração CSharp
-    // "latex-workshop.view.pdf.viewer": "tab", // Configuração Latex
-    // "editor.wordWrap": "wordWrapColumn", // Quebra de linha
     "window.zoomLevel": 0,
     
     // Oculta menu superior, pressionar ALT para exibir novamente
@@ -95,5 +93,8 @@
     
     // Busca automaticamente novos commits
     "git.autofetch": true,
+
+    // Faz o stash automaticamente na hora de puxar os commits
+    "git.autoStash": true
 }
 ```
