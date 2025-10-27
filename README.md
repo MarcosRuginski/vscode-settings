@@ -63,23 +63,30 @@
     // Quando salva, automaticamente corrige os erros
     "[javascript]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": true,
+            "source.fixAll.eslint": "explicit"
         }
     },
     "[javascriptreact]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": true,
+            "source.fixAll.eslint": "explicit"
         }
     },
     "[typescript]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.eslint":  true,
+            "source.fixAll.eslint": "explicit"
         }
     },
     "[typescriptreact]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": true
+            "source.fixAll.eslint": "explicit"
         }
+    },
+
+    // Quando salva, automaticamente corrige formtação
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     
     "emmet.syntaxProfiles": { "javascript": "jsx" }, // Auto complete do HTML para js
@@ -95,6 +102,6 @@
     "git.autofetch": true,
 
     // Faz o stash automaticamente na hora de puxar os commits
-    "git.autoStash": true
+    "git.autoStash": true,
 }
 ```
